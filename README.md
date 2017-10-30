@@ -77,7 +77,7 @@ password: admin
 Support custom DB Initialization
 ```
 # Dockerfile
-FROM wnameless/oracle-xe-11g
+FROM williamjablonski/oracle-xe-11g_utf8
 
 ADD init.sql /docker-entrypoint-initdb.d/
 ```
