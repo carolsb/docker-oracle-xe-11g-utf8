@@ -63,4 +63,4 @@ undo_tablespace=UNDOTBS1
 ###########################################
 #NLS_NCHAR_CHARACTERSET=UTF8
 #NLS_CHARACTERSET=UTF8
-NLS_LANG=pt_BR.UTF-8
+#NLS_LANG=pt_BR.UTF-8
