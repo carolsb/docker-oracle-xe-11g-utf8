@@ -57,3 +57,9 @@ shared_servers=4
 ###########################################
 undo_management=AUTO
 undo_tablespace=UNDOTBS1
+
+###########################################
+# set UTF8 data encode
+###########################################
+NLS_NCHAR_CHARACTERSET=UTF8
+NLS_CHARACTERSET=UTF8
