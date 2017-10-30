@@ -5,7 +5,7 @@ ENV NLS_CHARACTERSET=UTF8
 ENV NLS_LANG=pt_BR.UTF-8
 
 MAINTAINER William Melchior Jablonski <william.jablonsi@gmail.com>
-
+USER root
 ADD assets /assets
 RUN /assets/setup.sh
 
