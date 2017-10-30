@@ -1,5 +1,9 @@
 FROM ubuntu:16.04
 
+ENV NLS_NCHAR_CHARACTERSET=UTF8
+ENV NLS_CHARACTERSET=UTF8
+ENV NLS_LANG=pt_BR.UTF-8
+
 MAINTAINER William Melchior Jablonski <william.jablonsi@gmail.com>
 
 ADD assets /assets
