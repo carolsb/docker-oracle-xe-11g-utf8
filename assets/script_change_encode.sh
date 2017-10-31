@@ -10,15 +10,9 @@ sqlplus "/as sysdba"
 
 # 4 run sqls
  shutdown immediate;
-
  startup restrict;
-
  select name from v$database;
-
  ALTER DATABASE CHARACTER SET INTERNAL_USE UTF8 ;
-
  select value from NLS_DATABASE_PARAMETERS where parameter=’NLS_CHARACTERSET’;
-
 shutdown immediate;
-
 startup;
