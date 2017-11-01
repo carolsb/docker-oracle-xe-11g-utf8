@@ -13,7 +13,7 @@ sqlplus "/as sysdba"
  startup restrict;
  select name from v$database;
  # ALTER DATABASE CHARACTER SET INTERNAL_USE UTF8 ;
- ALTER DATABASE CHARACTER SET INTERNAL_USE WE8ISO8859P15 ;
+ ALTER DATABASE CHARACTER SET INTERNAL_USE WE8ISO8859P1 ; 
  select value from NLS_DATABASE_PARAMETERS where parameter=’NLS_CHARACTERSET’;
 shutdown immediate;
 startup;
